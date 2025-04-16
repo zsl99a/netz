@@ -1,0 +1,17 @@
+[package]
+name = "netz-core"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+pin-project-lite.workspace = true
+
+futures.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tokio-serde.workspace = true
+
+serde.workspace = true
+bytes.workspace = true
+rmp-serde.workspace = true

@@ -1,0 +1,18 @@
+[package]
+name = "netz-quic"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+netz-core.workspace = true
+
+pin-project-lite.workspace = true
+
+futures.workspace = true
+tokio.workspace = true
+
+bytes.workspace = true
+serde.workspace = true
+
+s2n-quic = { version = "1", features = ["provider-event-tracing"] }
